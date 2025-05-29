@@ -31,8 +31,54 @@ nav {
     max-height: 8vh;
 }
 
-.font{
+.fontheader{
     font-family: "Oxanium", sans-serif;
     font-weight: 400;
     font-size: 2.53vmax;
+}
+
+.fontdropdown{
+    font-family: "Oxanium", sans-serif;
+    font-weight: 400;
+    font-size: 1.8vmax;
+}
+
+.home{
+    text-decoration: none;
+    color: #f0f0f0;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown button {
+    background-color: #141414;
+    border: none;
+    cursor: pointer;
+    color: #f0f0f0;
+}
+
+.dropdown a {
+    display: block;
+    color: #f0f0f0;
+    text-decoration: none;
+    padding: 5%;
+}
+
+.dropdown .content {
+    display: none;
+    position: absolute;
+    background-color: #141414;
+    border: 2px solid #f0f0f0;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.dropdown:hover .content {
+    display: block;
+}
+
+.dropdown a:hover {
+    background-color: hsla(0, 0%, 94%, 0.2);
 }
