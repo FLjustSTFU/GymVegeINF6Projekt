@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+
+body {
+    background-color: #f6f6f6;
+    font-family: "Oxanium", sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Verhindert Scrollen */
+    overflow-y: hidden;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas: 
+    "Titel Drittitel"
+    "Foto Vorstellung"
+    "Zweitertitel Zweitertitel"
+  
+}
+.Vorstellung {
+    grid-area: Vorstellung;
+    font-size: 1.5em;
+    color: #000000; /* Textfarbe für den Text */
+    margin: 20px;
+    text-align: left;
+    max-width: 800px; /* Maximale Breite für den Text */
+    position: relative;
+    left: 450px; /* Verschiebt den Text nach rechts */
+    bottom: 600px; /* Verschiebt den Text nach oben */
+}
+.Foto {
+    grid-area: Foto;
+    width: 300px; /* Breite des Bildes */
+    height: auto; /* Automatische Höhe */
+    position: relative;
+    left: 50px; /* Verschiebt das Bild nach rechts */
+    top: 5px; /* Verschiebt das Bild nach unten */
+}
+.Drittitel {
+    grid-area: Drittitel;
+    font-size: 2em; /* Größe der Überschrift */
+    color: #000000; /* Farbe der Überschrift */
+    margin-bottom: 10px; /* Abstand nach unten */
+    position: relative;
+    left: 450px; /* Verschiebt die Überschrift nach rechts */
+    bottom: 600px; /* Verschiebt die Überschrift nach oben */
+}
+.Zweitertitel {
+    grid-area: Zweitertitel;
+    font-size: 2em; /* Größe der Überschrift */
+    color: #000000; /* Farbe der Überschrift */
+    margin-bottom: 20px; /* Abstand nach unten */
+    position: relative;
+    bottom: 10px; /* Verschiebt die Überschrift nach oben */
+    Left: 50px; /* Verschiebt die Überschrift nach rechts */
+}
+.Titel {
+    grid-area: Titel;
+    text-align: center; /* Zentriert den Text */
+    font-size: 4em; /* Größere Schriftgröße für die Überschrift */
+    color: #000000; /* Dunkle Farbe für den Text */
+    margin-top: 20px; /* Abstand nach oben */
+    margin-bottom: 20px; /* Abstand nach unten */
+    position: relative;
+    right: 100px; /* Verschiebt die Überschrift nach links */
+}
