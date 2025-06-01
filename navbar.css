@@ -50,6 +50,7 @@ nav {
 
 .dropdown {
     display: inline-block;
+    z-index: 2;
 }
 
 .dropdown button {
