@@ -337,7 +337,7 @@
 }
 
 .devleft {
-  width: 60vw;
+  width: 55vw;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -350,7 +350,7 @@
 }
 
 .devright {
-  width: 40vw;
+  width: 45vw;
   height: 100%;
 }
 
@@ -479,8 +479,19 @@
 }
 
 /* ─── Javascript ─────────────────────────────────────────────────────────── */
-#fllogoxd{
+#fllogoxd {
     inset: 0;
     z-index: 100;
     pointer-events: none;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#fllogoxd canvas {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%;
 }
