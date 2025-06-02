@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
 
 body {
@@ -82,4 +81,19 @@ nav {
 
 .dropdown a:hover {
     background-color: hsla(0, 0%, 94%, 0.2);
+}
+
+footer {
+    height: 2vh;
+    background-color: #101010;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Oxanium", sans-serif;
+}
+
+footer a {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-size: 0.75em;
 }

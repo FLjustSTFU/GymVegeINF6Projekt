@@ -48,7 +48,7 @@
     box-shadow: 0 8px 32px 0 rgba(104, 104, 104, 0.233);
     backdrop-filter: blur( 2px );
     -webkit-backdrop-filter: blur( 2px );
-    border-radius: 3em;
+    border-radius: 2em;
     height: 100%;
     width: 100%;
     display: flex;
@@ -70,12 +70,12 @@
 
 .co h1 {
     font-weight: 600;
-    font-size: 4em;
+    font-size: 1.8em;
 }
 
 .co ul {
     font-weight: 500;
-    font-size: 3em;
+    font-size: 1.5em;
 }
 
 
@@ -98,7 +98,7 @@
   cursor: pointer;
   overflow: hidden;
   transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
-  scale: 150%;
+  scale: 100%;
 }
 
 
