@@ -477,3 +477,10 @@
 .wavedev .shape-fill {
     fill: #F0F0F0;
 }
+
+/* ─── Javascript ─────────────────────────────────────────────────────────── */
+#fllogoxd{
+    inset: 0;
+    z-index: 100;
+    pointer-events: none;
+}
