@@ -8,12 +8,11 @@ body {
 }
 .Titel{
     text-align: center; /* Zentriert den Text */
-    font-size: 4em; /* Größere Schriftgröße für die Überschrift */
+     font-size: 5vh;
+    font-size: 5vw; 
     color: #000000; /* Dunkle Farbe für den Text */
-    margin-top: 20px; /* Abstand nach oben */
-    margin-bottom: 20px; /* Abstand nach unten */
-  position: relative;
-    left: 0px; /* Verschiebt die Überschrift nach rechts */
+   margin: 1vh;
+  margin: 1vw;
 }
 .grid-container {
 
@@ -31,45 +30,52 @@ body {
   grid-area: Ersterabsatz;
   font-size: 2em;
   color: #000000;
-  margin: 20px;
+  margin: 1vh;
+  margin: 1vw;
   text-align: right;
 }
 .Zweiterabsatz {
   grid-area: Zweiterabsatz;
   font-size: 2em;
   color: #000000;
-  margin: 20px;
+  margin: 1vh;
+  margin: 1vw;
   text-align: left;
 }
 .Dritterabsatz {
   grid-area: Dritterabsatz;
   font-size: 2em;
   color: #000000;
-  margin: 20px;
+  margin: 1vh;
+  margin: 1vw;
   text-align: right;
 }
 .Startseitenbild {
   grid-area: Startseitenbild;
-  width: 800px;
+   width: 100vh;
+  width: 50vw;
   height: auto;
 }
 .Höhlenszenerie {
   grid-area: Höhlenszenerie;
-  width: 700px;
+   width: 100vh;
+  width: 50vw;
   height: auto;
 }
 .Teleporterlevel {
   grid-area: Teleporterlevel;
-  width: 700px;
+   width: 100vh;
+  width: 50vw;
   height: auto;
 }
 
 .Winterdorfbild {
   grid-area: Winterdorfbild;
-  width: 700px;
+  width: 100vh;
+  width: 50vw;
   height: auto;
     position: relative;
-    left: 800px; /* Verschiebt das Bild nach rechts */
-    Bottom: 150px; /* Verschiebt das Bild nach oben */
+    left: 55%; 
+    Bottom: 50%;
 
 }
