@@ -21,7 +21,7 @@ let GBCartridge;
 
 const loader = new GLTFLoader();
 
-loader.load('./assets/GBCartridge.glb',
+loader.load('./models/GBCartridge.glb',
     function (gltf) {
         GBCartridge = gltf.scene;
 
