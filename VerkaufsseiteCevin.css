@@ -45,7 +45,7 @@ body {
     margin: 10px;
     font-weight: bold;
     border-radius: 5px; /* Abgerundete Ecken */
-     max-width: 200px;
+     max-width: 15em;
 
 
 }
@@ -72,7 +72,7 @@ body {
 
 .Titel { 
     text-align: Left;
-    font-size: 6em;
+    font-size: 500%;
     color: #000000;
     margin-top: 20px;
     margin-left: 50px;
@@ -84,7 +84,7 @@ body {
     grid-area: Startseitenbild;
 }
 .PenguScreen { 
-    width: 800px; 
+    width: 100%; 
     height: auto;
    margin-left: 50px;
     border-radius: 20px; /* Abrundung der Ecken */
@@ -135,20 +135,22 @@ body {
 
 /* Preis und Kaufen Feld */
 .Preis {
-    font-size: 1.5em;
+    font-size: 80%;
     color: #000000;
     margin-top: 20px;
     text-align: left;
+    margin-left: 10%;
     
 }
 .Kaufen {
-    font-size: 1.5em;
+    font-size: 100%;
     color: #000000;
-    margin-top: 20px;
+    margin-top: 2%;
     color: rgb(0, 0, 0);
-    border: #000000 solid 10px; /* Schwarzer Rand */
+    border: #000000 solid 5px; /* Schwarzer Rand */
     border-radius: 5px; /* Abgerundete Ecken */
     text-align: center;
+    margin-left: 10%;
 }
 
 .Preis-Kaufen {
