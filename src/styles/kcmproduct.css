@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+
+.start {
+    background-color: #101010;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.startleft {
+    font-family: "Oxanium", sans-serif;
+    color: #7019E1;
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.startvertcent {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 15%;
+}
+
+.startbuttonwrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.startvertcent h1 {
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.514);
+    font-weight: 500;
+    font-size: 2.25em;
+    margin-bottom: 0;
+}
+
+.startvertcent p {
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+.startright{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 2000px;
+    transform-style: preserve-3d;
+}
+
+.start .cmbild{
+    max-width: 90%;
+    max-height: 90%;
+    transform: rotateX(11deg) rotateY(-27deg) rotateZ(6deg);
+    transform-origin: 50% 50% 100%;
+}
+
+
+.animated-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 16px 36px;
+  border: 4px solid;
+  border-color: transparent;
+  font-size: 16px;
+  background-color: inherit;
+  border-radius: 100px;
+  font-weight: 600;
+  color: #7019E1;
+  box-shadow: 0 0 0 2px #7019E1;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  scale: 100%;
+}
+
+
+.animated-button .circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  background-color: #7019E1;
+  border-radius: 50%;
+  opacity: 0;
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button .text {
+  position: relative;
+  z-index: 1;
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button:hover {
+  box-shadow: 0 0 0 12px transparent;
+  color: #f0f0f0;
+  border-radius: 12px;
+}
+
+
+.animated-button:active {
+  scale: 0.95;
+  box-shadow: 0 0 0 4px #7019E1;
+}
+
+.animated-button:hover .circle {
+  width: 220px;
+  height: 220px;
+  opacity: 1;
+}
+
+
+/* ─── Changelog ──────────────────────────────────────────────────────────── */
+.changelog{
+  background-color: #7019E1;
+  height: 100vh;
+  display: flex;
+  font-family: "Oxanium", sans-serif;
+  color: #f0f0f0;
+}
+
+.clleft {
+  height: inherit;
+  width: 50vw;
+  padding: 3%;
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box;    
+  box-sizing: border-box;   
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.clright {
+  width: 50vw;
+  height: inherit;
+  padding: 3%;
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box;    
+  box-sizing: border-box; 
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.changelog h1 {
+  font-weight: 600;
+  font-size: 3em;
+  margin-bottom: 0;
+}
+
+.changelog h3 {
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 5%;
+}
+
+
+.changelog .cltext h3 {
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 2.5%;
+  font-size: 1.2em;
+}
+
+.changelog .cltext {
+  font-size: 1em;
+}
+
+.changelog .cltext ul {
+  margin: 1%;
+
+}
+
+/* ─── Store ──────────────────────────────────────────────────────────────── */
+.store {
+  background-color: #101010;
+  height: 100vh;
+  padding: 1%;
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box;    
+  box-sizing: border-box; 
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Oxanium", sans-serif;
+  color: #f0f0f0;
+}
+
+.store h1 {
+  margin: 0;
+  margin-top: 2%;
+  font-weight: 600;
+  font-size: 3em;
+}
+
+.productwrapperultimate {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.productwrapper {
+  height: 70%;
+  width: 25%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  background-color: #ffffff07;
+  border: 1px solid #ffffff00;
+  border-radius: 2em;
+  padding: 2%;
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box;    
+  box-sizing: border-box; 
+  
+}
+
+.productwrapper ul {
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.productwrapper .versiontitle {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.picwrapper {
+  aspect-ratio: 1;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 2000px;
+    transform-style: preserve-3d;
+}
+
+.productbutton {
+  display: flex;
+  justify-content: center;
+}
+
+.picwrapper .cmbild {
+  max-width: 100%;
+  max-height: 100%;
+  transform: rotateX(11deg) rotateY(-27deg) rotateZ(6deg);
+  transform-origin: 50% 50% 100%;
+}
+
+.store .animated-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 16px 36px;
+  border: 4px solid;
+  border-color: transparent;
+  font-size: 16px;
+  background-color: inherit;
+  border-radius: 100px;
+  font-weight: 600;
+  color: #f0f0f0;
+  box-shadow: 0 0 0 2px #f0f0f0;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  scale: 100%;
+}
+
+
+.store .animated-button .circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  background-color: #f0f0f0;
+  border-radius: 50%;
+  opacity: 0;
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.store .animated-button .text {
+  position: relative;
+  z-index: 1;
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.store .animated-button:hover {
+  box-shadow: 0 0 0 12px transparent;
+  color: #101010;
+  border-radius: 12px;
+}
+
+
+.store .animated-button:active {
+  scale: 0.95;
+  box-shadow: 0 0 0 4px #f0f0f0;
+}
+
+.store .animated-button:hover .circle {
+  width: 220px;
+  height: 220px;
+  opacity: 1;
+}
+
+/* ─── Dev ────────────────────────────────────────────────────────────────── */
+
+.dev {
+    background-color: #f0f0f0;
+    height: 100vh;
+    display: flex;
+    font-family: "Oxanium", sans-serif;
+    color: #101010;
+}
+
+.dev h1 {
+  margin: 0;
+  font-weight: 800;
+  font-size: 3em;
+}
+
+.devleft {
+  width: 55vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 26% 0 26% 0;
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box;    
+  box-sizing: border-box;
+}
+
+.devright {
+  width: 45vw;
+  height: 100%;
+}
+
+
+.dev .animated-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 16px 36px;
+  border: 4px solid;
+  border-color: transparent;
+  font-size: 16px;
+  background-color: inherit;
+  border-radius: 100px;
+  font-weight: 600;
+  color: #101010;
+  box-shadow: 0 0 0 2px #101010;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+  scale: 100%;
+}
+
+
+.dev .animated-button .circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  background-color: #101010;
+  border-radius: 50%;
+  opacity: 0;
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.dev .animated-button .text {
+  position: relative;
+  z-index: 1;
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.dev .animated-button:hover {
+  box-shadow: 0 0 0 12px transparent;
+  color: #f0f0f0;
+  border-radius: 12px;
+}
+
+
+.dev .animated-button:active {
+  scale: 0.95;
+  box-shadow: 0 0 0 4px #101010;
+}
+
+.dev .animated-button:hover .circle {
+  width: 220px;
+  height: 220px;
+  opacity: 1;
+}
+
+/* ─── Waves ──────────────────────────────────────────────────────────────── */
+.wavestart {
+    position: absolute;
+    top: 100vh;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: 3;
+}
+
+.wavestart svg {
+    position: relative;
+    display: block;
+    width: calc(114% + 1.3px);
+    height: 75px;
+}
+
+.wavestart .shape-fill {
+    fill: #101010;
+}
+
+.wavecl {
+    position: absolute;
+    top: 200vh;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: 3;
+}
+
+.wavecl svg {
+    position: relative;
+    display: block;
+    width: calc(111% + 1.3px);
+    height: 32px;
+}
+
+.wavecl .shape-fill {
+    fill: #7019E1;
+}
+
+.wavedev {
+    position: absolute;
+    bottom: -200.5vh;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    z-index: 3;
+}
+
+.wavedev svg {
+    position: relative;
+    display: block;
+    width: calc(223% + 1.3px);
+    height: 117px;
+}
+
+.wavedev .shape-fill {
+    fill: #F0F0F0;
+}
+
+/* ─── Javascript ─────────────────────────────────────────────────────────── */
+#fllogoxd {
+    inset: 0;
+    z-index: 100;
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#fllogoxd canvas {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%;
+}

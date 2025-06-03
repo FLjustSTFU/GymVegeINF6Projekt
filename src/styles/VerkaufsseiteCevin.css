@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+
+body {
+    background-color: #f6f6f6;
+    font-family: "Oxanium", sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Verhindert Scrollen */
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas: 
+    "Startseitenbild Preis-Kaufen"
+    "RezensionenundTags RezensionenundTags"
+    "SystemanforderungenB SystemanforderungenB"
+
+    
+}
+
+/* Rezensionen und Tags */
+
+.Tag {
+   color: black;
+   outline: solid 3px #000000;
+   outline-offset: 3px;
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+    border-radius: 5px; /* Abgerundete Ecken */
+    font-size: 1.5em;
+}
+.Tags {
+    margin-left: 10px;
+    font-size: 2em;
+}
+
+.Rezensionennummer
+{
+    color: black;
+    outline: solid 3px #000000;
+    outline-offset: 3px;
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+    border-radius: 5px; /* Abgerundete Ecken */
+     max-width: 15em;
+
+
+}
+
+.Rezensionen 
+{
+    font-size: 2em;
+    color: black;
+    text-align: Left;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.RezensionenundTags {
+    grid-area: RezensionenundTags;
+    text-align: left;
+    font-size: 1.2em;
+    color: #000000;
+    padding: 20px;
+    font-weight: bold;
+}
+
+/* Titel des Spiels */
+
+.Titel { 
+    text-align: Left;
+    font-size: 500%;
+    color: #000000;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+/* Bild des Spiels */
+
+.Startseitenbild {
+    grid-area: Startseitenbild;
+}
+.PenguScreen { 
+    width: 100%; 
+    height: auto;
+   margin-left: 50px;
+    border-radius: 20px; /* Abrundung der Ecken */
+}
+
+
+/*Systemanforderungen: Einzelnes Gitter usw. */
+
+.Systemanforderungengrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+     grid-auto-flow: column; /* Elemente werden von links nach rechts angeordnet */ 
+    grid-template-areas: 
+    "SystemanforderungenA SystemanforderungenA"
+    "Linkeanforderungen Rechteanforderungen"
+}
+.Linkeanforderungen {
+    grid-area: Linkeanforderungen;
+    text-align: left;
+    font-size: 1.2em;
+    color: #000000;
+    padding: 5px;
+}
+.Rechteanforderungen {
+    grid-area: Rechteanforderungen;
+    text-align: left;
+    font-size: 1.2em;
+    color: #000000;
+    padding: 5px;
+}
+.SystemanforderungenA {
+    grid-area: SystemanforderungenA;
+    text-align: Left;
+    font-size: 2em;
+    color: #000000;
+    position:relative;
+    Right: 20px;
+    font-weight: bold;
+}
+.SystemanforderungenB {
+    grid-area: SystemanforderungenB;
+    font-size: 1.2em;
+    color: #000000;
+    padding: 20px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+/* Preis und Kaufen Feld */
+.Preis {
+    font-size: 80%;
+    color: #000000;
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 10%;
+    
+}
+.Kaufen {
+    font-size: 100%;
+    color: #000000;
+    margin-top: 2%;
+    color: rgb(0, 0, 0);
+    border: #000000 solid 5px; /* Schwarzer Rand */
+    border-radius: 5px; /* Abgerundete Ecken */
+    text-align: center;
+    margin-left: 10%;
+}
+
+.Preis-Kaufen {
+    grid-area: Preis-Kaufen;
+    text-align: left;
+    font-size: 3em;
+    color: #000000;
+    padding: 20px;
+    font-weight: bold;
+}
