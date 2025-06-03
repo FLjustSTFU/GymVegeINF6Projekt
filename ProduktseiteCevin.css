@@ -75,7 +75,9 @@ body {
   width: 50vw;
   height: auto;
     position: relative;
-    left: 55%; 
-    Bottom: 50%;
+    left: 50hv; 
+    left: 50vw;
+    Bottom: 10vh;
+    Bottom: 10vw;
 
 }
