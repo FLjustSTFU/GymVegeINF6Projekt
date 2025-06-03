@@ -35,8 +35,6 @@ jobs:
         uses: actions/setup-node@v4
       - name: inst dependencies
         run: npm install
-      - name: Build app
-        run: npm  run build
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
